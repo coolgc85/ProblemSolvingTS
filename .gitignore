@@ -1,0 +1,40 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore built output
+dist/
+build/
+out/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore TypeScript compiler artifacts
+*.js
+*.js.map
+*.d.ts
+
+# Ignore editor-specific files
+.vscode/
+*.vscode/
+*.code-workspace
+
+# Ignore debug files
+*.log
+*.debug
+
+# Ignore npm lock files
+package-lock.json
+yarn.lock
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore miscellaneous project files
+*.bak
+*.swp
+Thumbs.db
